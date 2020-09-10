@@ -1,0 +1,103 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  color: #33475b;
+  line-height: 30px;
+}
+
+h2{
+  margin-bottom: 30px;
+}
+/* header */
+.top-header{
+  height: 75px;
+  border-bottom: 1px solid black;
+  background: #f5f8fa;
+}
+
+.bottom-header{
+  height: 75px;
+  background: white;
+  border-bottom: 2px solid black;
+}
+
+/* primo step */
+.first-step{
+  position: relative;
+}
+
+.first-img img{
+  width: 100%;
+}
+
+.first-text{
+  top: 30px;
+  left: 30px;
+  position: absolute;
+  height: 40%;
+  width: 40%;
+  background: white;
+}
+
+/* secondo step */
+
+section{
+  background: #f5f8fa;
+}
+
+.second-step{
+  padding-top: 50px;
+}
+
+/* dado */
+.dado{
+  padding-bottom: 50px;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.dado img{
+  width: 30%;
+}
+
+/* TERZO STEP */
+.terzo-step{
+  padding-bottom: 50px;
+}
+
+/* primo float*/
+div .float::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.float{
+  width: 70%;
+  background: white;
+  height: 300px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.colonna{
+  float: left;
+}
+
+.book{
+  width: 30%;
+  height: 300px;
+  background: grey;
+}
+
+.free-hubspot{
+  width: 70%;
+  height: 300px;
+  background: lightgrey;
+}
+
+/* QUARTO STEP */
