@@ -41,7 +41,16 @@ h2{
   width: 40%;
   background: white;
 }
-
+/* RIGA VERDE */
+.riga-verde{
+  border-top: 3px solid #33475b;
+  border-bottom: 3px solid #33475b;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 75px;
+  background: 	#40E0D0;
+}
 /* secondo step */
 
 section{
