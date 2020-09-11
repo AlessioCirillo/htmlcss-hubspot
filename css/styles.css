@@ -4,52 +4,184 @@
   box-sizing: border-box;
 }
 body{
+  font-family: 'Roboto', sans-serif;
   color: #33475b;
   line-height: 30px;
+}
+
+a{
+  color: #33475b;
+  text-decoration: none;
 }
 
 h2{
   margin-bottom: 30px;
 }
-/* header */
+/* TOP HEADER */
 .top-header{
   height: 75px;
   border-bottom: 1px solid black;
   background: #f5f8fa;
 }
 
+.top-menu{
+  width: 70%;
+  line-height: 75px;
+  margin: auto;
+  vertical-align: middle;
+}
+/* LISTA DI SINISTRA */
+.top-menu div ul li{
+  display: inline-block;
+}
+
+.top-menu div ul .primo .li{
+  list-style: none;
+}
+
+.primo{
+  line-height: normal;
+  padding-right: 10px;
+  display: inline-block;
+  border-right: 2px solid #cbd6e2;
+}
+
+.top-menu div::after{
+  content:'';
+  display: table;
+  clear: both;
+}
+
+.sinistra{
+  float: left;
+}
+
+.secondo{
+  line-height: normal;
+  padding-left: 10px;
+  display: inline-block;
+}
+
+/*LISTA DI DESTRA */
+
+.destra{
+  float: right;
+}
+
+.terzo li i,
+.terzo li.login{
+  margin-right: 10px;
+}
+
+.terzo li a i{
+  margin-right: 20px;
+  color: #85d1e0;
+}
+
+.button a{
+  border: 1px solid #ff7a59;
+  border-radius: 4px;
+  text-align: center;
+  color: white;
+  line-height: normal;
+}
+
+.login a{
+  padding: 10px 25px;
+  font-size: 13px;
+  color: #ff7a59;
+  background: white;
+}
+
+.gothubspot a{
+  padding: 10px 15px;
+  font-size: 13px;
+  background: #ff7a59;
+}
+
+/* BOTTOM HEADER */
 .bottom-header{
   height: 75px;
   background: white;
-  border-bottom: 2px solid black;
 }
 
-/* primo step */
+.bottom-menu::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.bottom-menu img{
+  width: 90px;
+  float: left;
+  padding-top: 25px;
+}
+
+.bottom-menu{
+  width: 70%;
+  margin: auto;
+}
+
+.menu-tendina{
+  float: right;
+}
+
+.menu-tendina ul li{
+  padding-left: 20px;
+  line-height: 75px;
+  list-style: none;
+  display: inline-block;
+}
+
+.menu-tendina ul li i{
+  padding-left: 15px;
+}
+
+/* INIZIO MAIN */
+.hero{
+  height: 660px;
+  background-color: #fff3ee;
+  position: relative;
+}
 .first-step{
+  width: 70%;
+  margin: auto;
+  background-color: transparent;
+  height: 600px;
   position: relative;
 }
 
-.first-img img{
+.first-img{
+  background-image: url(../img-hubspot/jumbotron.png);
+  position: absolute;
+  height: 100%;
   width: 100%;
+  right: -228px;
+  bottom: 0;
+  background-position: right center;
 }
 
 .first-text{
-  top: 30px;
-  left: 30px;
+  top: 40px;
+  left: 0;
+  width: 42%;
   position: absolute;
-  height: 40%;
-  width: 40%;
   background: white;
+}
+
+.first-text h2{
+  font-size: 40px;
+  font-weight: 700;
 }
 /* RIGA VERDE */
 .riga-verde{
-  border-top: 3px solid #33475b;
-  border-bottom: 3px solid #33475b;
+  border-top: 3px solid #34485c;
+  border-bottom: 3px solid #34485c;
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 75px;
-  background: 	#40E0D0;
+  height: 95px;
+  background: #afebe4;
 }
 /* secondo step */
 
@@ -79,19 +211,19 @@ section{
 }
 
 /* primo float*/
-.float::after{
+.float2::after{
   content: '';
   display: table;
   clear: both;
 }
 
-.float1{
+.float2{
   width: 70%;
   background: white;
   margin: auto;
 }
 
-.colonna1{
+.colonna2{
   float: left;
   margin-bottom: 50px;
 }
@@ -110,18 +242,18 @@ section{
 }
 
 /* QUARTO STEP */
-.float2{
+.float3{
   width: 70%;
   margin: auto;
 }
 
-.float2::after{
+.float3::after{
   content: '';
   display: table;
   clear: both;
 }
 
-.colonna2{
+.colonna3{
   float: left;
   margin-bottom: 50px;
 }
