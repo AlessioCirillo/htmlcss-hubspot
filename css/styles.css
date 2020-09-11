@@ -70,28 +70,28 @@ section{
 }
 
 /* primo float*/
-div .float::after{
+.float::after{
   content: '';
   display: table;
   clear: both;
 }
 
-.float{
+.float1{
   width: 70%;
   background: white;
-  height: 300px;
   margin: auto;
-  padding-bottom: 50px;
 }
 
-.colonna{
+.colonna1{
   float: left;
+  margin-bottom: 50px;
 }
 
 .book{
   width: 30%;
   height: 300px;
   background: grey;
+
 }
 
 .free-hubspot{
@@ -101,3 +101,38 @@ div .float::after{
 }
 
 /* QUARTO STEP */
+.float2{
+  width: 70%;
+  margin: auto;
+}
+
+.float2::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.colonna2{
+  float: left;
+  margin-bottom: 50px;
+}
+
+.mark-hub{
+  height: 300px;
+  width: 30%;
+  margin-right: 5%;
+  background: red;
+}
+
+.sales-hub{
+  height: 300px;
+  width: 30%;
+  margin-right: 5%;
+  background: blue;
+}
+
+.service-hub{
+  height: 300px;
+  width: 30%;
+  background: green;
+}
