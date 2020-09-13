@@ -598,3 +598,119 @@ section{
 .step-sette .first-text .button{
   padding-bottom: 30px;
 }
+
+/* FOOTER */
+footer{
+  background: #33475b;
+  color: white;
+}
+
+footer .container{
+  width: 70%;
+  height: 450px;
+}
+
+footer .container::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+footer .container .col{
+  width: 25%;
+  float: left;
+  text-align: left;
+}
+
+footer .container .col p{
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+
+footer .container .col ul li{
+  list-style: none;
+  padding-bottom: 8px;
+}
+
+footer .container .col ul li a{
+  color: #cbd6e2;
+  font-size: 14px;
+}
+
+.footer-button a{
+  border-radius: 4px;
+  background: #cbd6e2;
+  padding: 10px 15px;
+  font-size: 13px;
+}
+
+#last-li {
+  padding-bottom: 20px;
+}
+#testo-blu{
+  color: #33475b;
+}
+
+.social li{
+  padding-top: 10px;
+  padding-right: 25px;
+  display: inline-block;
+}
+
+.social li i{
+  font-size: 18px;
+}
+
+/* SCELTA LINGUA */
+.footer2{
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.lingua li{
+  display: inline-block;
+}
+
+.lingua li a{
+  color: #cbd6e2;
+  margin: 15px;
+}
+
+.lingua{
+  border-bottom: 1px solid #cbd6e2;
+  padding-bottom: 20px;
+}
+
+/* LOGO FOOTER.... COPY */
+.footer3{
+  color: #cbd6e2;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.footer3::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.img-copy{
+  float: left;
+}
+
+.privacy{
+  float: right;
+}
+
+.privacy ul li{
+  display: inline-block;
+  list-style: none
+}
+
+.privacy ul li a{
+  margin-left: 20px;
+  color: #cbd6e2;
+}
