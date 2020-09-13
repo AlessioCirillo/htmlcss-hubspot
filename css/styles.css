@@ -15,7 +15,26 @@ a{
 }
 
 h2{
+  font-size: 32px;
+  line-height: 45px;
   margin-bottom: 30px;
+}
+
+h4{
+  font-size: 22px;
+}
+p{
+  font-size: 18px;
+}
+
+hr{
+  border-radius: 4px;
+  background: #33475b;
+  height: 3px;
+}
+
+.bold{
+  font-weight: 700;
 }
 /* TOP HEADER */
 .top-header{
@@ -84,6 +103,7 @@ h2{
   text-align: center;
   color: white;
   line-height: normal;
+  background: #ff7a59;
 }
 
 .login a{
@@ -96,7 +116,6 @@ h2{
 .gothubspot a{
   padding: 10px 15px;
   font-size: 13px;
-  background: #ff7a59;
 }
 
 /* BOTTOM HEADER */
@@ -166,13 +185,30 @@ h2{
   left: 0;
   width: 42%;
   position: absolute;
-  background: white;
 }
 
 .first-text h2{
-  font-size: 40px;
+  font-size: 46px;
   font-weight: 700;
 }
+
+.first-text p{
+  font-size: 18px;
+}
+
+.first-text p.button{
+  margin: 40px 0;
+}
+
+.first-text p.button a{
+  padding: 20px 35px;
+  font-size: 16px;
+}
+
+.first-text p:last-child{
+  font-size: 14px;
+}
+
 /* RIGA VERDE */
 .riga-verde{
   border-top: 3px solid #34485c;
@@ -183,8 +219,8 @@ h2{
   height: 95px;
   background: #afebe4;
 }
-/* secondo step */
 
+/* SECONDO STEP.....DADO */
 section{
   background: #f5f8fa;
 }
@@ -193,9 +229,9 @@ section{
   padding-top: 50px;
 }
 
-/* dado */
+/* DADO */
 .dado{
-  padding-bottom: 50px;
+  padding-bottom: 60px;
   margin: auto;
   width: 50%;
   text-align: center;
@@ -210,7 +246,7 @@ section{
   padding-bottom: 50px;
 }
 
-/* primo float*/
+/* PRIMO FLOAT */
 .float2::after{
   content: '';
   display: table;
@@ -219,29 +255,82 @@ section{
 
 .float2{
   width: 70%;
-  background: white;
   margin: auto;
+  height: 370px;
+  background: white;
+  border-radius: 5px;
 }
 
 .colonna2{
   float: left;
-  margin-bottom: 50px;
 }
 
 .book{
+  border-radius: 4px;
   width: 30%;
-  height: 300px;
-  background: grey;
+  background: white;
 
+}
+.book-img img{
+  padding-bottom: 40px;
+  width: 150px;
+}
+
+.book-img{
+  padding-top: 70px;
+  padding-bottom: 85px;
+  text-align: center;
+}
+
+.button .learnmore{
+  padding: 20px 35px;
+  font-size: 16px;
 }
 
 .free-hubspot{
+  border-radius: 4px;
   width: 70%;
-  height: 300px;
-  background: lightgrey;
+  background: white;
+  height: 343px;
 }
 
-/* QUARTO STEP */
+.free-hubspot-text h4{
+  padding: 30px;
+  padding-top: 60px;
+}
+
+.free-hubspot-text .text{
+  padding-left: 30px;
+  padding-right: 150px;
+  padding-bottom: 30px;
+}
+
+.free-hubspot-text .bold{
+  display: inline-block;
+  margin-left: 30px;
+  margin-right: 50px;
+}
+
+.colonna2 hr{
+  border-radius: 4px;
+  background: #33475b;
+  height: 3px;
+  width: 400px;
+  display: inline-block;
+}
+
+.free-hubspot-text ul li{
+  padding: 30px;
+  display: inline-block;
+  list-style: none;
+}
+
+.free-hubspot-text ul li i{
+  padding-right: 10px;
+  color: #ff7a59;
+}
+
+/* QUARTO STEP.....MARKETING-SALES-SERVICE */
 .float3{
   width: 70%;
   margin: auto;
@@ -255,25 +344,151 @@ section{
 
 .colonna3{
   float: left;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
+}
+
+.colonna3 p{
+  font-size: 15px;
 }
 
 .mark-hub{
-  height: 300px;
+  border-radius: 5px;
   width: 30%;
   margin-right: 5%;
-  background: red;
+  background: white;
+}
+
+.marketing-hub{
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+}
+
+.marketing-hub img{
+  width: 110px;
+  padding-top: 30px;
+}
+
+.marketing-hub h4{
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.marketing-hub p{
+  padding-bottom: 30px;
+}
+
+.popular{
+  padding-top: 30px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.marketing-hub ul li i{
+  color: #ff7a59;
+}
+
+.marketing-hub ul li{
+  padding-left: 0;
+  list-style: none;
+  text-align: left;
+  font-size: 15px;
+}
+
+.marketing-hub .button{
+  padding-top: 80px;
+  padding-bottom: 40px;
 }
 
 .sales-hub{
-  height: 300px;
+  border-radius: 5px;
   width: 30%;
   margin-right: 5%;
-  background: blue;
+  background: white;
+}
+
+#saleshub-img{
+  width: 136.84px;
 }
 
 .service-hub{
-  height: 300px;
+  border-radius: 5px;
   width: 30%;
-  background: green;
+  background: white;
 }
+
+#servicehub-img{
+  width: 99.79px;
+}
+
+.lightblue{
+  height: 800px;
+  color: white;
+  background: #00a9b9;
+}
+
+.container{
+  padding-top: 50px;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+
+.container p{
+  padding-bottom: 50px;
+}
+
+.tabella::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.col{
+  height: 200px;
+  float: left;
+  width: 25%;
+}
+
+.col img{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.n8 img{
+  padding-bottom: 20px;
+}
+
+.col h2.numeri{
+  margin-bottom: 15px;
+  font-size: 45px;
+}
+
+.col h2 span{
+  vertical-align: middle;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.col p{
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+
+.n1,
+.n2,
+.n3,
+.n4{
+  border-bottom: 1px solid white;
+}
+
+.n1,
+.n2,
+.n3,
+.n5,
+.n6,
+.n7{
+  border-right: 1px solid white;
+}
+
+/* SESTO STEP.....BUSINESS AFFILIATES */
