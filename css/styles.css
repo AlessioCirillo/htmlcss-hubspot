@@ -538,6 +538,7 @@ section{
 
 /* CUSTOMERS-LOGHI */
 .loghi{
+  padding-top: 20px;
   width: 70%;
   height: 300px;
 }
