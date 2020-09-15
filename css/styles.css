@@ -106,7 +106,9 @@ hr{
   background: #ff7a59;
 }
 
-
+.button a:hover{
+  background: rgba(255, 189, 89, 0.5);
+}
 .login a{
   padding: 10px 25px;
   font-size: 13px;
@@ -638,6 +640,10 @@ footer .container .col ul li a{
   font-size: 14px;
 }
 
+footer .container .col ul li a:hover{
+  color: #0091ae;
+}
+
 .footer-button a{
   border-radius: 4px;
   background: #cbd6e2;
@@ -679,6 +685,9 @@ footer .container .col ul li a{
   margin: 15px;
 }
 
+.lingua li a:hover{
+  color: #0091ae;
+}
 .lingua{
   border-bottom: 1px solid #cbd6e2;
   padding-bottom: 20px;
@@ -714,4 +723,8 @@ footer .container .col ul li a{
 .privacy ul li a{
   margin-left: 20px;
   color: #cbd6e2;
+}
+
+.privacy ul li a:hover{
+  color: #0091ae;
 }
