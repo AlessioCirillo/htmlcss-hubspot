@@ -107,7 +107,8 @@ hr{
 }
 
 .button a:hover{
-  background: rgba(255, 189, 89, 0.5);
+  background: rgba(255, 188, 172, 1);
+  border: 1px solid rgba(255, 188, 172, 1);
 }
 
 .login a{
@@ -117,6 +118,9 @@ hr{
   background: white;
 }
 
+.login a:hover{
+  background: #fff1ee;
+}
 .gothubspot a{
   padding: 10px 15px;
   font-size: 13px;
@@ -642,7 +646,7 @@ footer .container .col ul li a{
 }
 
 footer .container .col ul li a:hover{
-  color: #0091ae;
+  color: #7fd1de;
 }
 
 .footer-button a{
@@ -690,7 +694,7 @@ footer .container .col ul li a:hover{
 }
 
 .lingua li a:hover{
-  color: #0091ae;
+  color: #7fd1de;
 }
 .lingua{
   border-bottom: 1px solid #cbd6e2;
@@ -730,5 +734,5 @@ footer .container .col ul li a:hover{
 }
 
 .privacy ul li a:hover{
-  color: #0091ae;
+  color: #7fd1de;
 }
