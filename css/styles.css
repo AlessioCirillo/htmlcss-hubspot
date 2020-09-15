@@ -109,6 +109,7 @@ hr{
 .button a:hover{
   background: rgba(255, 189, 89, 0.5);
 }
+
 .login a{
   padding: 10px 25px;
   font-size: 13px;
@@ -646,11 +647,14 @@ footer .container .col ul li a:hover{
 
 .footer-button a{
   border-radius: 4px;
-  background: #cbd6e2;
+  background: #fff;
   padding: 10px 15px;
   font-size: 13px;
 }
 
+.support .footer-button a:hover{
+  background: #cbd6e2;
+}
 #last-li {
   padding-bottom: 20px;
 }
